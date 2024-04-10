@@ -1,0 +1,126 @@
+// Ahmad 99463107 and mohammad mehdi 99463108
+#include <mega32.h>
+#include <delay.h>
+
+void main(void){
+    int i;
+    DDRA = 0b11111111;
+    DDRB = 0b11111111; 
+    while (1){     
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b11111110;
+            PORTA = 0b00000000; 
+            PORTB = 0b11111111;            
+        }      
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b11111101; 
+            PORTB = 0b11111111;
+            PORTA = 0b00010001;
+            PORTB = 0b11111110; 
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        } 
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b11111011; 
+            PORTB = 0b11111111;
+            PORTA = 0b00010001;
+            PORTB = 0b11111100;
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        } 
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b11110111; 
+            PORTB = 0b11111111;
+            PORTA = 0b00010001;
+            PORTB = 0b11111000;
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        } 
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b11101111; 
+            PORTB = 0b11111111;
+            PORTA = 0b00010001;
+            PORTB = 0b11110000;
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        } 
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b11011110; 
+            PORTB = 0b11111111;
+            PORTA = 0b00010001;
+            PORTB = 0b11100001;
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        }
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b10111101; 
+            PORTB = 0b11111111;
+            PORTA = 0b00010001;
+            PORTB = 0b11000011;
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        } 
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b01111011; 
+            PORTB = 0b11111111;
+            PORTA = 0b00010001;
+            PORTB = 0b10000111;
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        }
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b11110111; 
+            PORTB = 0b11111111;
+            PORTA = 0b00010001;
+            PORTB = 0b00001111;
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        } 
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b11101111; 
+            PORTB = 0b11111111;
+            PORTA = 0b00010001;
+            PORTB = 0b00011111;
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        }  
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b11011111; 
+            PORTB = 0b11111111;
+            PORTA = 0b00010001;
+            PORTB = 0b00111111; 
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        }
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b10111111; 
+            PORTB = 0b11111111;
+            PORTA = 0b00010001;
+            PORTB = 0b01111111;
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        }
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b11111110;
+            PORTB = 0b01111111; 
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        }        
+        for (i = 5000; i > 0; i--) {
+            PORTA = 0b00000000;
+            PORTB = 0b11111111;            
+        }
+    }
+}
